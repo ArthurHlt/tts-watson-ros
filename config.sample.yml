@@ -2,4 +2,4 @@ watson-tts:
   url: https://stream.watsonplatform.net/text-to-speech/api
   user: user
   password: password
-  voice: en-US_MichaelVoice
+  voice: en-US_MichaelVoice # voices can be found here: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/text-to-speech/using.shtml#voices
