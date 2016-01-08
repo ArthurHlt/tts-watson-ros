@@ -1,0 +1,5 @@
+watson-tts:
+  url: https://stream.watsonplatform.net/text-to-speech/api
+  user: user
+  password: password
+  voice: en-US_MichaelVoice

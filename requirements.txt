@@ -1,0 +1,4 @@
+Flask
+requests
+pyaudio>=0.2.9
+pyyaml>=3.08
