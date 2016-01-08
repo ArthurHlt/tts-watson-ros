@@ -1,5 +1,5 @@
-# stt-watson
-Speech to text using watson in python with websocket and record from microphone
+# tts-watson-ros
+Text to speech using watson for ros.
 
 ## Requirements
 
