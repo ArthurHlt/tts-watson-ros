@@ -10,8 +10,9 @@ Speech to text using watson in python with websocket and record from microphone
 
 ## Usage
 
-1. Clone the repo ìn your catkin workspace `src` folder: `git clone https://github.com/HomeHabbit/tts-watson-ros.git tts_watson`
-2. Run `pip install -r requirements.txt`
-3. Update the file `config.sample.yml` and rename it to `config.yml`
-3. Run it with ros: `rosrun tts_watson tts.py`
-4. You need to publish message on topic `/text_to_speech` (e.g with rostopic: `rostopic pub /text_to_speech std_msgs/String hi` will make you hear "hi")
+1. Clone the repo ìn your catkin workspace (most of the time it's `~/catkin_ws`) `src` folder: `git clone https://github.com/HomeHabbit/tts-watson-ros.git tts_watson`
+2. Do `catkin_make` under your catkin workspace
+3. Run `pip install -r requirements.txt`
+4. Update the file `config.sample.yml` and rename it to `config.yml`
+5. Run it with ros: `rosrun tts_watson tts.py`
+6. You need to publish message on topic `/text_to_speech` (e.g with rostopic: `rostopic pub /text_to_speech std_msgs/String hi` will make you hear "hi")
